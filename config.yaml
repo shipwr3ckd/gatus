@@ -1,6 +1,12 @@
 endpoints:
+  - name: catbox
+    group: host
+    url: "https://catbox.moe"
+    interval: 1m
+    conditions:
+      - "[STATUS] == 200"
   - name: singapore
-    group: core
+    group: proxy server
     url: "https://fatboxog.onrender.com"
     interval: 1m
     conditions:
