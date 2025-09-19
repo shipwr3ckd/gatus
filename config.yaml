@@ -2,6 +2,6 @@ endpoints:
   - name: singapore
     group: core
     url: "https://fatboxog.onrender.com"
-    interval: 5m
+    interval: 1m
     conditions:
       - "[STATUS] == 200"
